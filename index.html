@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Portfólió</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Portfólió
+            Mészáros Torda
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Rólam</a></li>
+                    <li><a href="#projects">Projektek</a></li>
+                    <li><a href="#contact">Kapcsolat</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Üdvözöllek a portfóliómon</h2>
+            <p>Bemutatom a legjobb projektjeimet és néhány információt rólam</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Rólam</h2>
+            <div id="user-profile" class="user-profile">
+                <!-- RandomUser API adatok ide -->
+                <div class="about-content">
+                    <img src="profilkeped.jpeg" width="115" height="150"alt="Profil kép" class="profile-image">
+                    <div class="about-text">
+                        <p><strong>Születés:</strong> 2004.12.15, Szombathely</p>
+                        <p><strong>Iskolák:</strong></p>
+                        <ul class="schools-list">
+                            <li>Tihanyi Bencés Általános Iskola</li>
+                            <li>Lovassy László Gimnázium</li>
+                        </ul>
+                        <p><strong>Érdeklődési Körök:</strong></p>
+                        <ul class="interests-list">
+                            <li>Sportolás</li>
+                            <li>Sütés/Főzés</li>
+                            <li>Matematika</li>
+                        </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projektek</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3>Projekt 1</h3>
+                    <img src="pizza.jpeg" width="230" height="160"alt="Pizza" class="pizza-image">
+                    <p>Nápolyi pizza(oliva olaj,fokhagyma,rozmaring,érlelt sajt) </p>
+                </div>
+                <div class="project">
+                    <h3>Projekt 2</h3>
+                    <img src="tartelette.jpeg" width="138" height="160"alt="Pizza" class="tartelette-image">
+                    <p>Mogyorós tartelette(mogyorópor,karamella,vanília ganache)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Kapcsolat</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Név" required>
+                <input type="email" id="email" placeholder="Email" required>
+                <textarea id="message" placeholder="Üzenet" required></textarea>
+                <button type="submit">Küldés</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 Portfólió. Minden jog fenntartva.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
